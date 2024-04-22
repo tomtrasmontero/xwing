@@ -13576,6 +13576,8 @@ exportObj.basicCardData = ->
                 "Proton Rockets"
             ]
             ship_override:
+                attackt: 2
+                attack: 0
                 shields: 3
                 actions: [
                     "Focus"
@@ -13603,6 +13605,9 @@ exportObj.basicCardData = ->
                 "Chaff Particles (BoE)"
                 "Target-Assist Algorithm (BoE)"
             ]
+            ship_override:
+                attackt: 2
+                attack: 0
         }
         {
             name: "Tycho Celchu (BoE)"
@@ -13615,6 +13620,8 @@ exportObj.basicCardData = ->
             points: 4
             chassis: "Vectored Cannons"
             ship_override:
+                attackt: 2
+                attack: 0
                 shields: 3
                 actions: [
                     "Focus"

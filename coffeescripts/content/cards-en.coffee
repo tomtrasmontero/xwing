@@ -3848,7 +3848,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you perform a %BOOST% action, gain a deplete token."""
         "Gyro-Cockpit":
            display_name: "Gyro-Cockpit"
-           text: """After you gain a stress token, you may spend 2 %CHARGE% to gain an evade token. When you drop a device, you may spend 1 %CHARGE% to set the template with its middle linie aligned with the hashmark on the base in your %LEFTARC% or %RIGHTARC%."""
+           text: """After you gain a stress token, you may spend 2 %CHARGE% to gain an evade token. When you drop a device, you may spend 1 %CHARGE% to set the template with its middle line aligned with the hashmark on the base in your %LEFTARC% or %RIGHTARC%."""
         "High Stakes":
            display_name: "High Stakes"
            text: """After you perform a red action, you may roll an attack die. On a %HIT%/%CRIT% result, remove 1 stress."""
