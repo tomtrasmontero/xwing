@@ -13953,7 +13953,6 @@ exportObj.basicCardData = ->
                 actions: [
                     "Focus"
                     "Evade"
-                    "Lock"
                     "Barrel Roll"
                     "R-> Evade"
                     "R-Boost"
@@ -13979,7 +13978,6 @@ exportObj.basicCardData = ->
                 actions: [
                     "Focus"
                     "Evade"
-                    "Lock"
                     "Barrel Roll"
                     "R-> Evade"
                     "R-Coordinate"
@@ -14005,7 +14003,6 @@ exportObj.basicCardData = ->
                 actions: [
                     "Focus"
                     "Evade"
-                    "Lock"
                     "Barrel Roll"
                     "R-> Evade"
                 ]
