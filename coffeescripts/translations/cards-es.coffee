@@ -945,7 +945,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """Después de que una nave enemiga situada en tu arco de fuego intervenga, si no estás bajo tensión, puedes recibir 1 ficha de Tensión. Si lo haces, esa nave enemiga no puede gastar fichas para modificar dados mientras efectúa un ataque durante esta fase.%LINEBREAK%Lanzadera de comunicaciones: Mientras estás acoplado, tu nave nodriza adquiere %COORDINATE%. Antes de que tu nave nodriza se active, puede realizar una acción %COORDINATE%."""
         "Fenn Rau":
            display_name: """Fenn Rau"""
-           text: """Mientras te defiendes o efectúas un ataque, si el alcance de ataque es 1, puedes tirar 1 dado adicional.%LINEBREAK%Envite de Concordia: Mientras te defiendes, si el alcance de ataque es 1 y estás en el %FRONTARC% del atacante, cambia 1 resultado por un resultado %EVADE%."""
+           text: """Mientras te defiendes o efectúas un ataque, si el alcance de ataque es 1, puedes tirar 1 dado adicional."""
         "Fifth Brother":
            display_name: """Quinto hermano"""
            text: """Mientras realizas un ataque, después de la etapa de “Neutralizar los resultados”, si el ataque impacta, puedes gastar 2 %FORCE% para añadir 1 resultado %CRIT%."""
@@ -1116,7 +1116,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """Después de que pierdas 1 escudo, recibes 1 ficha de Evasión."""
         "Joy Rekkoff":
            display_name: """Joy Rekkoff"""
-           text: """Mientras efectúas un ataque, puedes gastar 1 %CHARGE% de una mejora %TORPEDO% que tengas equipada. Si lo haces, el defensor tira 1 dado de defensa menos.%LINEBREAK%Envite de Concordia: Mientras te defiendes, si el alcance de ataque es 1 y estás en el %FRONTARC% del atacante, cambia 1 resultado por un resultado %EVADE%."""
+           text: """Mientras efectúas un ataque, puedes gastar 1 %CHARGE% de una mejora %TORPEDO% que tengas equipada. Si lo haces, el defensor tira 1 dado de defensa menos."""
         "K-2SO":
            display_name: """K-2SO"""
            text: """Después de ganar una ficha de tensión, gana 1 ficha de cálculo."""
@@ -1125,7 +1125,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """Al comienzo de la fase de Enfrentamiento, puedes elegir 1 nave aliada que tengas a alcance 0-2. Si lo haces, transfiere 1 ficha de Concentración o Evasión de esa nave a la tuya."""
         "Kad Solus":
            display_name: """Kad Solus"""
-           text: """Después de que ejecutes completamente una maniobra roja, recibes 2 fichas de Concentración.%LINEBREAK%Envite de Concordia: Mientras te defiendes, si el alcance de ataque es 1 y estás en el %FRONTARC% del atacante, cambia 1 resultado por un resultado %EVADE%."""
+           text: """Después de que ejecutes completamente una maniobra roja, recibes 2 fichas de Concentración."""
         "Kanan Jarrus":
            display_name: """Kanan Jarrus"""
            text: """Mientras una nave aliada situada en tu arco de fuego se defiende, puedes gastar 1 %FORCE%. Si lo haces, el atacante tira 1 dado de ataque menos.%LINEBREAK%Cañón de cola: Mientras tienes una nave acoplada, posees un armamento principal %REARARC% con un valor de Ataque igual al del armamento principal %FRONTARC% de tu nave acoplada."""
@@ -1323,7 +1323,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """<i class = flavor_text>El sistema de motor iónico doble del caza TIE fue diseñado para dotarlo de una gran velocidad; gracias a él, el TIE/ln es una de las naves estelares más maniobrables que se hayan llegado a producir en masa.</i>"""
         "Old Teroch":
            display_name: """Viejo Teroch"""
-           text: """Al comienzo de la fase de Enfrentamiento, puedes elegir 1 nave enemiga que tengas a alcance 1. Si lo haces y estás en su %FRONTARC%, esa nave retira todas sus fichas verdes.%LINEBREAK%Envite de Concordia: Mientras te defiendes, si el alcance de ataque es 1 y estás en el %FRONTARC% del atacante, cambia 1 resultado por un resultado %EVADE%."""
+           text: """Al comienzo de la fase de Enfrentamiento, puedes elegir 1 nave enemiga que tengas a alcance 1. Si lo haces y estás en su %FRONTARC%, esa nave retira todas sus fichas verdes."""
         "Omega Squadron Ace":
            display_name: """As del Escuadrón Omega"""
            text: """<i class = flavor_text>Sólo los pilotos que han demostrado una habilidad excepcional acompañada de una dedicación inquebrantable son recompensados con uno de los prestigiosos puestos en los escuadrones de la Primera Orden que actuaron en secreto contra la Nueva República durante la Guerra Fría.</i>"""
@@ -1515,7 +1515,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """<i class = flavor_text>Con sus potentes motores, devastadores cañones láser triples y amplio nivel de personalización, el Belbullab-22 es la nave favorita de varios pilotos de élite de la Alianza Separatista, entre ellos el infame general Grievous.</i>"""
         "Skull Squadron Pilot":
            display_name: """Piloto del Escuadrón Calavera"""
-           text: """<i class = flavor_text>Los ases del Escuadrón Calavera prefieren los estilos de vuelo agresivos con los que gracias al diseño de ala pivotante de sus naves disfrutan de una agilidad insuperable mientras persiguen a sus presas.</i>%LINEBREAK%Envite de Concordia: Mientras te defiendes, si el alcance de ataque es 1 y estás en el %FRONTARC% del atacante, cambia 1 resultado por un resultado %EVADE%."""
+           text: """<i class = flavor_text>Los ases del Escuadrón Calavera prefieren los estilos de vuelo agresivos con los que gracias al diseño de ala pivotante de sus naves disfrutan de una agilidad insuperable mientras persiguen a sus presas.</i>"""
         "Sol Sixxa":
            display_name: """Sol Sixxa"""
            text: """Si vas a soltar un dispositivo utilizando una plantilla [1 %STRAIGHT%], en vez de eso puedes soltarla utilizando cualquier otra plantilla de velocidad 1."""
@@ -1635,7 +1635,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """Después de que ejecutes parcialmente una maniobra, no omites tu paso de “Realizar una acción”."""
         "Zealous Recruit":
            display_name: """Recluta entusiasta"""
-           text: """<i class = flavor_text>Los pilotos del caza Colmillo mandaloriano deben dominar el Envite de Concordia, una maniobra que se vale de la estilizada silueta del vehículo para efectuar mortíferos asaltos frontales.</i>%LINEBREAK%Envite de Concordia: Mientras te defiendes, si el alcance de ataque es 1 y estás en el %FRONTARC% del atacante, cambia 1 resultado por un resultado %EVADE%."""
+           text: """<i class = flavor_text>Los pilotos del caza Colmillo mandaloriano deben dominar el Envite de Concordia, una maniobra que se vale de la estilizada silueta del vehículo para efectuar mortíferos asaltos frontales.</i>"""
         "Zertik Strom":
            display_name: """Zertik Strom"""
            text: """Durante la fase Final, puedes gastar un Blanco fijado que tengas sobre una nave enemiga para exponer 1 de las cartas de Daño de esa nave.%LINEBREAK%Computadora de selección de blancos avanzada: Mientras efectúas un ataque principal contra un defensor que tienes fijado como blanco, tira 1 dado de ataque adicional y cambia 1 resultado %HIT% por un resultado %CRIT%."""
