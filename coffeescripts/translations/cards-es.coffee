@@ -23,7 +23,7 @@ exportObj.translations['Español'] =
         " or Squad Including": " o incluye a escuadrón"
         "Ship": "Nave"
         "Extra": "Extra"
-        "Vectored Thrusters": "Cañones vectoriales"
+        "Vectored Thrusters": "Propulsores vectoriales"
         "Autothrusters": "Autopropulsores"
         "Networked Calculations": "Procesado de cálculos en red"
         "X-wing": "Ala-X"
@@ -654,7 +654,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """Después de ejecutar completamente una maniobra, si hay una nave enemiga en tu %FRONTARC% a alcance 0-1 o en tu %BULLSEYEARC%, puedes gastar 1 %FORCE% para retirar 1 ficha de tensión."""
         "Arvel Crynyd":
            display_name: """Arvel Crynyd"""
-           text: """Eres capaz de efectuar ataques principales a alcance 0.%LINEBREAK%Si una acción %BOOST% tuya va a fracasar debido a que te solapas con otra nave, en vez de eso resuélvela como si estuvieras ejecutando parcialmente una maniobra.%LINEBREAK%Propulsores vectoriales: Después de que realices una acción, puedes realizar una acción %BOOST% roja."""
+           text: """Si una acción %BOOST% tuya va a fracasar debido a que te solapas con otra nave, en vez de eso resuélvela como si estuvieras ejecutando parcialmente una maniobra. Mientras efectúas un ataque a rango 0 tratarlo como un ataque a rango 1."""
         "Asajj Ventress":
            display_name: """Asajj Ventress"""
            text: """Al comienzo de la fase de Enfrentamiento, puedes elegir 1 nave enemiga que esté situada en tu %SINGLETURRETARC% a alcance 0-2 y gastar 1 ficha %FORCE%. Si lo haces, esa nave recibe 1 ficha de Tensión a menos que retire 1 ficha verde."""
@@ -1020,7 +1020,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """<i class = flavor_text>Años de modificaciones improvisadas acabaron siendo elementos de serie del diseño del RZ-2, pero para los pilotos más osados, las mejoras en la fiabilidad de la nave no son más que un incentivo para buscar nuevos límites a sus prestaciones.</i>"""
         "Green Squadron Pilot":
            display_name: """Piloto del Escuadrón Verde"""
-           text: """<i class = flavor_text>Debido a la sensibilidad de sus mandos y su elevada capacidad de maniobra, sólo los mejores pilotos se sientan en la carlinga de un Ala-A.</i>%LINEBREAK%Propulsores vectoriales: Después de que realices una acción, puedes realizar una acción %BOOST% roja."""
+           text: """<i class = flavor_text>Debido a la sensibilidad de sus mandos y su elevada capacidad de maniobra, sólo los mejores pilotos se sientan en la carlinga de un Ala-A.</i>"""
         "Greer Sonnel":
            display_name: """Greer Sonnel"""
            text: """Después de que ejecutes completamente una maniobra, puedes reorientar tu %SINGLETURRETARC%."""
@@ -1086,7 +1086,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """<i class = flavor_text>A los temidos inquisidores se les concede un gran nivel de autonomía y acceso a la tecnología más moderna del Imperio, como el prototipo de TIE avanzado v1.</i>"""
         "Jake Farrell":
            display_name: """Jake Farrell"""
-           text: """Después de que realices una acción %BARRELROLL% o %BOOST%, puedes elegir una nave aliada que tengas a alcance 0-1. Esa nave puede realizar una acción %FOCUS%.%LINEBREAK%Propulsores vectoriales: Después de que realices una acción, puedes realizar una acción %BOOST% roja."""
+           text: """Después de que realices una acción %BARRELROLL% o %BOOST%, puedes elegir una nave aliada que tengas a alcance 0-1. Esa nave puede realizar una acción %FOCUS%."""
         "Jakku Gunrunner":
            display_name: """Traficante de armas de Jakku"""
            text: """<i class = flavor_text>El remolcador espacial cuatrimotor para transferencia de carga, conocido popularmente como “saltador quad”, es tan ágil en el espacio como en la atmósfera, lo que lo hace popular entre contrabandistas y exploradores por igual.</i>%LINEBREAK%Campos de tracción de remolque: Acción: Elige una nave que tengas en tu %FRONTARC% a alcance 1. Esa nave recibe 1 ficha de Campo de tracción, o 2 fichas de Campo de tracción si está situada en tu %BULLSEYEARC% a alcance 1."""
@@ -1374,7 +1374,7 @@ exportObj.cardLoaders['Español'] = () ->
            text: """Durante la fase de Activación o de Enfrentamiento, después de que una nave enemiga que tengas a alcance 0-1 y esté situada en tu %FRONTARC% reciba una ficha roja o naranja, si no estás bajo tensión, puedes recibir 1 ficha de Tensión. Si lo haces, esa nave recibe 1 ficha adicional del mismo tipo que acaba de recibir."""
         "Phoenix Squadron Pilot":
            display_name: """Piloto Esc. Fénix"""
-           text: """<i class = flavor_text>Bajo el mando del comandante Jun Sato, los valerosos pero inexpertos pilotos del Escuadrón Fénix se enfrentan al Imperio Galáctico teniéndolo todo en su contra.</i>%LINEBREAK%Propulsores vectoriales: Después de que realices una acción, puedes realizar una acción %BOOST% roja."""
+           text: """<i class = flavor_text>Bajo el mando del comandante Jun Sato, los valerosos pero inexpertos pilotos del Escuadrón Fénix se enfrentan al Imperio Galáctico teniéndolo todo en su contra.</i>"""
         "Planetary Sentinel":
            display_name: """Centinela planetario"""
            text: """<i class = flavor_text>Para proteger sus muchas instalaciones militares, el Imperio precisa de una fuerza de defensa rápida y vigilante.</i>%LINEBREAK%Alerones adaptativos: Antes de que reveles tu selector, si no estás bajo tensión, debes ejecutar una maniobra [1 %BANKLEFT%], [1 %STRAIGHT%] o [1 %BANKRIGHT%] de color blanco."""
@@ -4153,9 +4153,9 @@ exportObj.cardLoaders['Español'] = () ->
            text: """Considera a las naves aliadas como amigas. %LINEBREAK%Las naves no enemigas te consideran amistoso. %LINEBREAK%Mientras realizas un ataque, antes de declarar al defensor, cada nave amistosa en su arco de ataque y que no esté bajo tensión, recibe 1 ficha de tensión. %LINEBREAK%Después de que hayas defendido o realizado un ataque, si al menos 1 carta de daño boca arriba ha sido asignada al defensor o si ha sido destruido, retira este estado."""
 
     chassis_translations =
-        "Versatile Frame":
-           display_name: "Chasis Versátil"
-           text: """Puedes equipar 1 mejora %TORPEDO% o %MISSILE%. Mientras tu maniobra revelada es azul, agrega %BOOST% blanco a tu barra de acciones."""
+	    "Vectored Thrusters":
+           display_name: "Propulsores vectoriales"
+           text: """Después de que realices una acción, puedes realizar una acción %BOOST% roja."""
         "Advanced Targeting Computer":
            display_name: "Ordenador de Apuntado Avanzado"
            text: """Mientras realizas un ataque principal contra un defensor al que hayas fijado blanco, lanza 1 dado de ataque adicional y cambia 1 resultado %HIT% por un resultado %CRIT%."""
