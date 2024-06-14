@@ -13444,7 +13444,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Dash Rendar (YLF)"
-            xwsaddon: "swz103"
+            xwsaddon: "swz103-rebelalliance"
             unique: true
             id: 648
             faction: "Rebel Alliance"
@@ -13496,7 +13496,7 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Leebo" (YLF)'
-            xwsaddon: "swz103"
+            xwsaddon: "swz103-rebelalliance"
             unique: true
             id: 651
             faction: "Rebel Alliance"
